@@ -6,11 +6,12 @@ This is a short README file created with the scope of explaining how to run the 
 The current application has been created using the IntelliJ IDEA and Eclipse IDE environments and respectively the Maven build tool for
 dependency management.
 
-The structure of the current project includes only 2 files: 
+The structure of the current project includes only 3 files:
 A) one test class called VodafoneTest.java - this is the place where the application source code is hosted; it has been created as
 combination of the JUnit and the Selenide libraries;
 B) one resource file called log4j.properties - this file is responsible for hosting the configuration required for using the Log4j and 
-Slf4j frameworks needed in order to logout certain messages during the application run-time (in particular during the comparison tasks).
+Slf4j frameworks needed in order to logout certain messages during the application run-time (in particular during the comparison tasks);
+C) the pom.xml configuration file responsible for building and execution of the given project.
    
 In order to setup the current project, the following steps will need to be executed:
 1) Create a new Maven project from scratch inside IntelliJ IDEA/Eclipse IDE - follow the naming conventions listed inside the "pom.xml" 
